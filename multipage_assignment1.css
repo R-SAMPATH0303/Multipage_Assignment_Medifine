@@ -1,0 +1,202 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    background-image: url("stethoscope.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 40%  center;
+    background-size:41% 41%;
+}
+.navbar{
+    display: flex;
+    padding-top: 1.5%;
+    padding-left: 8%;
+}
+ul{
+    display: flex;
+    margin-left: 36%;
+}
+li{
+    list-style: none;
+    color: black;
+    font-weight: 600;
+    font-size: larger;
+}
+li:hover{
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+    margin-top: 3.5%;
+    padding-left: 14%;
+}
+.main{
+
+}
+.text{
+    width: 50%;
+    float: left;
+}
+.left{
+    margin-left: 18%;
+    margin-top: 20%;
+    margin-right: 19%;
+}
+.right{
+    margin-right:25%;
+    margin-top: 20%;
+}
+.mouse{
+    position: absolute;
+    bottom: 10%;
+}
+h1{
+    font-size:3em;
+}
+.green{
+    position: absolute;
+    z-index: -2;
+    right: 3%;
+    bottom: 13%;
+    size:10%;
+    height: 50%;
+    width: 35%;
+}
+.yellow{
+    position: absolute;
+    z-index: -3;
+    right: 3%;
+    bottom: 12%;
+    height: 40%;
+    width: 30%;
+}
+.doctor{
+    position: absolute;
+    z-index: -1;
+    right: 4%;
+    top: 12%;
+    height: 88%;
+    width: 36%;
+}
+.make{
+    background-color: rgb(30, 193, 100);
+    width: 39%;
+    padding: 2%;
+    color:white;
+    font-weight: 700;
+    font-size: 99%;
+    border-radius: 1rem;
+    border-color: aliceblue;
+}
+.make:hover{
+    border-color:darkblue;
+}
+.bottom{
+    position: relative;
+    left: 54%;
+    top: 20%;
+}
+.aboutus{
+    background-color:rgb(231, 227, 227);
+    width: 64%;
+    height: 45vh;
+    margin: auto;
+    margin-top: 10%;
+    text-align: center;
+}
+span{
+    color: rgb(5, 133, 5);
+    font-weight: 900;
+}
+.boxes{
+    margin-top: 5%;
+}
+.b1{
+    float: left;
+    background-color: white;
+    width: 20%;
+    height: 10vh;
+    margin-left: 4%;
+    border-color: grey;
+    border-radius: 6%;
+    border-style:solid;
+}
+.b2{
+    margin-left: 10%;
+    float: left;
+    width: 20%;
+    height: 10vh;
+    background-color: white;
+    border-color: grey;
+    border-radius: 6%;
+    border-style:solid;
+}
+.b3{
+    float: right;
+    width: 20%;
+    background-color: white;
+    margin-right: 10%;
+    height: 10vh;
+    border-color: grey;
+    border-radius: 6%;
+    border-style:solid;
+}
+.box span{
+    font-size:1.8em;
+    font-weight: bolder;
+}
+p{
+    font-size: 1.2em;
+    margin: 0;
+    padding: 0;
+}
+.box p{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+.contact{
+    width: 24%;
+    margin: auto;
+    margin-top: 10%;
+    background-color:whitesmoke;
+    border-radius: 10px;
+    border-color: darkgray;
+    border-style: solid;
+}
+.contact h2{
+    text-align: center;
+    font-size: 2em;
+    color: green;
+    font-weight: 900;
+}
+.contact label{
+    margin-left: 8%;
+    font-weight:600;
+    font-size: 1.2em;
+}
+.contact input{
+    margin-left: 8%;
+    margin-top: 2%;
+    margin-bottom: 0%;
+    width: 80%;
+    border-radius: 10px;
+    border: none;
+    padding: 2%;
+}
+button{
+    margin-left: 8%;
+    background-color: rgb(7, 155, 74);
+    width: 84%;
+    margin-top: 2%;
+    color: white;
+    font-weight: 900;
+    font-size: 1.2em;
+    margin-bottom: 4%;
+    border: none;
+    border-radius: 10px;
+    padding: 4px;
+}
+#message{
+    height: 12vh;
+}
